@@ -1,0 +1,9 @@
+<h1 class="contact"><%= @contact.first_name %> <%= @contact.last_name %></h1>
+<p class="contact"><strong>Email:</strong> <%= @contact.email %></p>
+<p class="contact"><strong>Note:</strong></p>
+<p class="contact"><%= @contact.note %></p>
+
+<form action="/contacts/<%= @contact.id %>" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <input type="submit" name="Delete Contact">
+</form>
