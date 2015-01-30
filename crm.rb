@@ -5,8 +5,8 @@ require	'./rolodex'
 
 
 $rolodex = Rolodex.new
-contact = $rolodex.find(1000)
-	# $rolodex.add_contact(Contact.new("Johnny", "Bravo", "johnny@bitmakerlabs.com", "Rockstar"))
+contact = $rolodex.find(:id)
+#$rolodex.add_contact(Contact.new("Johnny", "Bravo", "johnny@bitmakerlabs.com", "Rockstar"))
 
 
 get '/' do
