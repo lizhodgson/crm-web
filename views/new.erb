@@ -1,24 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>New Contact</title>
-	</head>
-	<body>
-		<h1>New Contact</h1>
+<head>
+	<meta charset="UTF-8">
+	<title>New Contact</title>
+</head>
+<body>
+	<h1>New Contact</h1>
 
-		<form action="/contacts" method="post">
+	<form class="new-contact-form" action="/contacts" method="post">
+		<div>
 			<label for "first_name">First Name</label>
 			<input type="text" name="first_name">
-			<br>
+		</div>
+
+		<div>
 			<label for "last_name">Last Name</label>
 			<input type="text" name="last_name">
-			<br>
-			<label for "email">email</label>
+		</div>
+
+		<div>
+			<label for "email">Email</label>
 			<input type="text" name="email">
-			<br>
+		</div>
+
+		<div>
+			<label for "note">Note</label>
 			<input type="text" name="note">
-			<input type="submit">
-		</form>
-	</body>
+		</div>
+
+		<input type="submit">
+		<a href="/">Cancel</a>
+
+	</form>
+</body>
 </html>

@@ -1,0 +1,56 @@
+body {
+	background: url('/images/CRM_background.jpg') no-repeat fixed center center / cover;
+}
+
+#wrap {
+	width: 80%;
+	margin: 200px auto 0 10%;
+	float: left;
+
+}
+
+.left {
+	float: left;
+	width: 40%;
+	margin-left: 10%;
+}
+
+.right {
+	/*float: left;*/
+	width: auto;
+	/*box-sizing: border-box;*/
+
+	right: 2em;
+	position: absolute;
+
+
+}
+
+
+
+h1 {
+	font-family: 'Garamond', sans-serif;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+ul li {
+	font-family: 'Pontano Sans', sans-serif;
+	color: white;
+	list-style-type: none;
+}
+
+footer {
+
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(80,80,80, 0.9);
+	width: 100%;
+	padding: 4em;
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	color: white; 
+
+}
